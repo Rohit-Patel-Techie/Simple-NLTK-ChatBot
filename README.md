@@ -23,9 +23,10 @@ The chatbot uses **intent-based JSON data** and **NLTK text processing** (tokeni
 - NLTK
 - JSON
 
----
+--- 
 
 ## 📂 Project Structure
+```
 Simple-NLTK-ChatBot/
 ├── data/
 │   └── intents.json
@@ -34,11 +35,8 @@ Simple-NLTK-ChatBot/
 ├── README.md
 └── requirements.txt
 
-chatbot/
-├── intents.json
-├── chatbot.py
-└── README.md
-
+---
 ## ▶️ How to Run
+- git clone https://github.com/Rohit-Patel-Techie/Simple-NLTK-ChatBot.git
 - pip install -r requirements.txt
 - python chatbot.py
