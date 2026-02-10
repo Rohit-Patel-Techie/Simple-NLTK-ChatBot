@@ -27,11 +27,17 @@ The chatbot uses **intent-based JSON data** and **NLTK text processing** (tokeni
 
 ## 📂 Project Structure
 Simple-NLTK-ChatBot/
-├── data/intents.json
+├── data/
+│   └── intents.json
 ├── chatbot.py
 ├── .gitignore
-└── README.md
+├── README.md
 └── requirements.txt
+
+chatbot/
+├── intents.json
+├── chatbot.py
+└── README.md
 
 ## ▶️ How to Run
 - pip install -r requirements.txt
