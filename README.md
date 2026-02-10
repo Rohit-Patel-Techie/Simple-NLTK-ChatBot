@@ -14,7 +14,7 @@ The chatbot uses **intent-based JSON data** and **NLTK text processing** (tokeni
 ---
 
 ## 📸 Screenshot
-![Chatbot Screenshot](screenshots\cli_chatbot_01.png)
+![Chatbot Screenshot](screenshots/cli_chatbot_01.png)
 
 ---
 
