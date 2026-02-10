@@ -1,0 +1,1093 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hii",
+        "hello",
+        "hey",
+        "good morning",
+        "good evening",
+        "start chat"
+      ],
+      "responses": [
+        "Hello! Welcome to the Acharya Narendra Dev College (ANDC) HelpDesk. How can I assist you today?",
+        "Hi there! I can help you with information about ANDC courses, fees, admissions, and campus life. What would you like to know?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "thank you",
+        "see you",
+        "exit",
+        "quit",
+        "thanks"
+      ],
+      "responses": [
+        "Goodbye! Have a great day ahead.",
+        "You're welcome! Feel free to come back if you have more questions about ANDC."
+      ]
+    },
+    {
+      "tag": "about_college",
+      "patterns": [
+        "tell me about the college",
+        "what is andc",
+        "give me an overview of the college",
+        "history of college",
+        "about acharya narendra dev college"
+      ],
+      "responses": [
+        "Acharya Narendra Dev College (ANDC), established in 1991, is a premier constituent college of the University of Delhi. Funded by the Govt. of NCT of Delhi, it is known for its strong emphasis on science education and research. It is accredited with an 'A' Grade by NAAC."
+      ]
+    },
+    {
+      "tag": "principal",
+      "patterns": [
+        "who is the principal",
+        "name of principal",
+        "principal's name",
+        "head of the institution"
+      ],
+      "responses": [
+        "The current Principal of Acharya Narendra Dev College is Prof. Ravi Toteja."
+      ]
+    },
+    {
+      "tag": "affiliation",
+      "patterns": [
+        "is it affiliated to du",
+        "which university",
+        "affiliation details",
+        "is it a private or govt college"
+      ],
+      "responses": [
+        "ANDC is a constituent college of the University of Delhi (DU) and is fully funded by the Government of NCT of Delhi."
+      ]
+    },
+    {
+      "tag": "ranking",
+      "patterns": [
+        "what is the nirf ranking",
+        "college ranking",
+        "is it a good college",
+        "naac grade"
+      ],
+      "responses": [
+        "ANDC is consistently ranked among the top colleges in India. It secured the 18th rank in the NIRF 2024 (College Category) and holds an 'A' Grade accreditation from NAAC."
+      ]
+    },
+    {
+      "tag": "address",
+      "patterns": [
+        "where is the college located",
+        "college address",
+        "location of andc",
+        "postal code"
+      ],
+      "responses": [
+        "The college is located at: Govindpuri, Kalkaji, New Delhi - 110019, India."
+      ]
+    },
+    {
+      "tag": "contact_phone",
+      "patterns": [
+        "contact number",
+        "phone number",
+        "how to call the college",
+        "office number"
+      ],
+      "responses": [
+        "You can contact the college administration at 011-26294542 or 011-26293224."
+      ]
+    },
+    {
+      "tag": "contact_email",
+      "patterns": [
+        "email address",
+        "official email",
+        "how to email the college",
+        "admin email"
+      ],
+      "responses": [
+        "The official email for general enquiries is principal@andc.du.ac.in. For admissions, you can often reach out to admissions@andc.du.ac.in."
+      ]
+    },
+    {
+      "tag": "website",
+      "patterns": [
+        "what is the official website",
+        "give me the website link",
+        "college url"
+      ],
+      "responses": [
+        "The official website of Acharya Narendra Dev College is https://www.andcollege.du.ac.in/"
+      ]
+    },
+    {
+      "tag": "nearest_metro",
+      "patterns": [
+        "nearest metro station",
+        "how to reach by metro",
+        "metro connectivity"
+      ],
+      "responses": [
+        "The nearest metro station is Govindpuri on the Violet Line. It is approximately 1 km from the college campus."
+      ]
+    },
+    {
+      "tag": "courses_ug_science",
+      "patterns": [
+        "science courses available",
+        "what bsc courses do you offer",
+        "list of science courses",
+        "undergraduate science programs"
+      ],
+      "responses": [
+        "ANDC offers B.Sc. (Honours) in Biomedical Science, Botany, Chemistry, Computer Science, Electronics, Mathematics, Physics, and Zoology. We also offer B.Sc. Program in Life Sciences and Physical Sciences (with Chemistry, CS, or Electronics)."
+      ]
+    },
+    {
+      "tag": "courses_ug_commerce",
+      "patterns": [
+        "commerce courses",
+        "do you have bcom",
+        "bcom hons details"
+      ],
+      "responses": [
+        "The college offers B.Com. (Honours) for commerce students. It is one of the premier courses offered by the college."
+      ]
+    },
+    {
+      "tag": "courses_pg",
+      "patterns": [
+        "post graduate courses",
+        "msc courses",
+        "masters programs",
+        "pg courses list"
+      ],
+      "responses": [
+        "ANDC offers M.Sc. in Chemistry and M.Sc. in Mathematics."
+      ]
+    },
+    {
+      "tag": "foreign_language_courses",
+      "patterns": [
+        "foreign language courses",
+        "do you teach french or german",
+        "language certificate courses",
+        "part time language courses"
+      ],
+      "responses": [
+        "Yes, the college offers part-time Certificate and Diploma courses in foreign languages including French, German, Spanish, and Russian."
+      ]
+    },
+    {
+      "tag": "admission_process",
+      "patterns": [
+        "how to take admission",
+        "admission procedure",
+        "apply for college",
+        "is admission through cuet"
+      ],
+      "responses": [
+        "Admission to all UG courses is based on the Common University Entrance Test (CUET) scores, followed by the Common Seat Allocation System (CSAS) by Delhi University. For PG courses, admission is through CUET-PG."
+      ]
+    },
+    {
+      "tag": "fee_structure",
+      "patterns": [
+        "what is the fee structure",
+        "college fees",
+        "how much are the fees",
+        "tell me about fees"
+      ],
+      "responses": [
+        "Fees vary by course. Generally, B.Sc. courses range from ₹20,000 to ₹30,000 per year, while B.Sc. (Hons) Computer Science is slightly higher (approx ₹45,000 - ₹50,000+ per year). B.Com (Hons) is around ₹20,000 - ₹25,000 per year. Please check the official prospectus for the exact current session fees."
+      ]
+    },
+    {
+      "tag": "hostel_facility",
+      "patterns": [
+        "do you have a hostel",
+        "hostel facility",
+        "accommodation for students",
+        "is there a boys or girls hostel"
+      ],
+      "responses": [
+        "ANDC does not have an on-campus hostel. However, many students stay in PG (Paying Guest) accommodations in the nearby areas of Govindpuri and Kalkaji."
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "library details",
+        "do you have a library",
+        "books available in library",
+        "reading room"
+      ],
+      "responses": [
+        "Yes, we have a fully computerized library with RFID technology. It houses over 26,000 books, journals, and e-resources. There are separate reading rooms for students and faculty."
+      ]
+    },
+    {
+      "tag": "labs",
+      "patterns": [
+        "lab facilities",
+        "science labs",
+        "computer labs",
+        "infrastructure"
+      ],
+      "responses": [
+        "The college boasts state-of-the-art laboratories for all science departments, including Physics, Chemistry, Botany, Zoology, Electronics, and Biomedical Science. We also have advanced Computer Labs and a Web Center."
+      ]
+    },
+    {
+      "tag": "sports_facilities",
+      "patterns": [
+        "sports available",
+        "games facilities",
+        "cricket ground",
+        "do you have a gym"
+      ],
+      "responses": [
+        "ANDC provides facilities for various sports including Cricket, Football, Basketball, Volleyball, Chess, and Table Tennis. We also have a gymnasium for students."
+      ]
+    },
+    {
+      "tag": "placement_cell",
+      "patterns": [
+        "placement cell",
+        "recruitment",
+        "does the college provide placement",
+        "career opportunities"
+      ],
+      "responses": [
+        "Yes, ANDC has an active Placement and Career Counseling Cell that organizes recruitment drives, internships, and skill-development workshops."
+      ]
+    },
+    {
+      "tag": "placement_stats",
+      "patterns": [
+        "average package",
+        "highest package",
+        "top recruiters",
+        "placement companies"
+      ],
+      "responses": [
+        "The average salary package is typically around 3-4 LPA, with the highest going up to 10-12 LPA. Top recruiters include TCS, Wipro, Indigo Airlines, HDFC, and other MNCs."
+      ]
+    },
+    {
+      "tag": "societies_cultural",
+      "patterns": [
+        "cultural societies",
+        "drama club",
+        "dance society",
+        "music club",
+        "extra curricular activities"
+      ],
+      "responses": [
+        "The college has vibrant cultural societies including 'Dhwani' (Theatre), 'Maa'rur' (Dance), and societies for music, debate, and fine arts."
+      ]
+    },
+    {
+      "tag": "annual_fest",
+      "patterns": [
+        "what is the annual fest name",
+        "college fest",
+        "cultural festival"
+      ],
+      "responses": [
+        "The annual cultural festival of Acharya Narendra Dev College is called 'Leiothrixx'. It is a major event with celebrity performances and student competitions."
+      ]
+    },
+    {
+      "tag": "canteen",
+      "patterns": [
+        "cafeteria",
+        "canteen facility",
+        "food available",
+        "is the food good",
+        "is andc have canteen",
+        "college have canteen"
+      ],
+      "responses": [
+        "The college has a hygienic canteen offering a variety of snacks and meals at affordable prices. It is a popular hangout spot for students."
+      ]
+    },
+    {
+      "tag": "attendance_rules",
+      "patterns": [
+        "attendance criteria",
+        "minimum attendance",
+        "is attendance compulsory"
+      ],
+      "responses": [
+        "As per Delhi University rules, a minimum of 67% attendance is generally required to be eligible to appear for semester examinations."
+      ]
+    },
+    {
+      "tag": "documents_admission",
+      "patterns": [
+        "documents required for admission",
+        "what documents do i need",
+        "paperwork for admission"
+      ],
+      "responses": [
+        "You typically need your Class 10th & 12th marksheets, CUET score card, migration certificate, character certificate, caste certificate (if applicable), and passport-sized photographs."
+      ]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": [
+        "scholarships available",
+        "financial aid",
+        "fee concession",
+        "help for poor students"
+      ],
+      "responses": [
+        "ANDC offers fee concessions and financial aid to needy and deserving students. There are also scholarships like the 'S.K. Batra Memorial Scholarship' and others mandated by DU/Govt."
+      ]
+    },
+    {
+      "tag": "nss",
+      "patterns": [
+        "nss unit",
+        "social service",
+        "national service scheme"
+      ],
+      "responses": [
+        "Yes, the college has a very active NSS unit that engages in social service activities, blood donation camps, and community development."
+      ]
+    },
+    {
+      "tag": "wifi",
+      "patterns": [
+        "is there wifi",
+        "internet facility",
+        "wifi password"
+      ],
+      "responses": [
+        "The entire college campus is Wi-Fi enabled, providing internet access to students and faculty for academic purposes."
+      ]
+    },
+    {
+      "tag": "anti_ragging",
+      "patterns": [
+        "anti ragging policy",
+        "is the campus safe",
+        "ragging complaints"
+      ],
+      "responses": [
+        "ANDC has a zero-tolerance policy towards ragging. An Anti-Ragging Committee is in place to ensure a safe environment for all students."
+      ]
+    },
+    {
+      "tag": "timings_college",
+      "patterns": [
+        "college timings",
+        "opening hours",
+        "class timings"
+      ],
+      "responses": [
+        "College classes typically run from 9:00 AM to 5:00 PM, Monday to Saturday. Administrative office hours are 9:00 AM to 5:30 PM (Mon-Fri)."
+      ]
+    },
+    {
+      "tag": "internships",
+      "patterns": [
+        "internship opportunities",
+        "summer internships",
+        "do we get internships"
+      ],
+      "responses": [
+        "The Placement Cell and IEDC (Innovation & Entrepreneurship Development Cell) actively assist students in securing summer internships and live projects."
+      ]
+    },
+    {
+      "tag": "alumni",
+      "patterns": [
+        "alumni network",
+        "famous alumni",
+        "old students association"
+      ],
+      "responses": [
+        "ANDC has a strong alumni network. Our alumni are placed in prestigious research institutes, MNCs, and civil services across the globe."
+      ]
+    },
+    {
+      "tag": "medical_facilities",
+      "patterns": [
+        "medical room",
+        "doctor on campus",
+        "first aid"
+      ],
+      "responses": [
+        "The college has a medical room with basic first-aid facilities and a visiting doctor/counselor available on specific days."
+      ]
+    },
+    {
+      "tag": "icc_sexual_harassment",
+      "patterns": [
+        "women safety",
+        "sexual harassment cell",
+        "icc committee"
+      ],
+      "responses": [
+        "The Internal Complaints Committee (ICC) deals with issues related to sexual harassment and ensures a safe campus for women. The society 'Sashakt' also works for women's empowerment."
+      ]
+    },
+    {
+      "tag": "eligibility_bsc",
+      "patterns": [
+        "eligibility for bsc",
+        "requirements for science courses",
+        "can i do bsc without maths"
+      ],
+      "responses": [
+        "Eligibility depends on the specific course (e.g., Physics/Chem/Maths in 12th). Admission is based on CUET subject mapping. Check the latest DU Bulletin of Information for course-specific subject requirements."
+      ]
+    },
+    {
+      "tag": "eligibility_bcom",
+      "patterns": [
+        "eligibility for bcom hons",
+        "requirements for commerce",
+        "maths required for bcom"
+      ],
+      "responses": [
+        "For B.Com (Hons), candidates generally need to appear for CUET with Mathematics/Accountancy as a subject. Refer to the CSAS portal for the latest subject combinations."
+      ]
+    },
+    {
+      "tag": "photocopy_shop",
+      "patterns": [
+        "photocopy shop",
+        "stationery shop",
+        "printout facility"
+      ],
+      "responses": [
+        "Yes, there is a stationery and photocopy shop available inside the college campus for student convenience."
+      ]
+    },
+    {
+      "tag": "auditorium",
+      "patterns": [
+        "auditorium",
+        "seminar hall",
+        "events hall"
+      ],
+      "responses": [
+        "The college has a modern, air-conditioned conference hall and seminar rooms equipped with audio-visual aids for events and lectures."
+      ]
+    },
+    {
+      "tag": "research",
+      "patterns": [
+        "research facilities",
+        "undergraduate research",
+        "projects"
+      ],
+      "responses": [
+        "ANDC is unique for promoting undergraduate research. Programmes like 'ELITE' (Education in a Lively Innovative Training Environment) allow students to undertake research projects."
+      ]
+    },
+    {
+      "tag": "disabled_friendly",
+      "patterns": [
+        "facilities for disabled",
+        "pwd facilities",
+        "ramps and lifts"
+      ],
+      "responses": [
+        "The campus is differently-abled friendly, with ramps, tactile paths, and specialized washrooms. The library also has enabling units for visually challenged students."
+      ]
+    },
+    {
+      "tag": "bank",
+      "patterns": [
+        "bank in college",
+        "atm facility",
+        "nearest bank"
+      ],
+      "responses": [
+        "There is no full bank branch inside, but several ATMs and banks are located within walking distance in the Kalkaji/Govindpuri market."
+      ]
+    },
+    {
+      "tag": "bus_routes",
+      "patterns": [
+        "bus numbers",
+        "bus route to college",
+        "dtc bus"
+      ],
+      "responses": [
+        "The college is well-connected by DTC buses. Buses plying towards Govindpuri, Kalkaji Depot, and Okhla stop near the college."
+      ]
+    },
+    {
+      "tag": "departmental_societies",
+      "patterns": [
+        "computer science society",
+        "science clubs",
+        "subject societies"
+      ],
+      "responses": [
+        "Each department has its own society, such as the Computer Science Society, Chemistry Society, etc., which organize talks, fests, and workshops throughout the year."
+      ]
+    },
+    {
+      "tag": "id_card",
+      "patterns": [
+        "how to get id card",
+        "identity card",
+        "lost id card"
+      ],
+      "responses": [
+        "ID cards are issued by the administration office after admission formalities are completed. If lost, please contact the admin office immediately to apply for a duplicate."
+      ]
+    },
+    {
+      "tag": "student_login",
+      "patterns": [
+        "student login",
+        "attendance login",
+        "online portal"
+      ],
+      "responses": [
+        "Students can access the 'SmartProf' app or the college ERP portal (accessible via the website) to check attendance and internal assessment marks."
+      ]
+    },
+    {
+      "tag": "founder",
+      "patterns": [
+        "who was acharya narendra dev",
+        "college named after",
+        "founder info"
+      ],
+      "responses": [
+        "The college is named after Acharya Narendra Dev, a great educationist, freedom fighter, and socialist leader of modern India."
+      ]
+    },
+    {
+      "tag": "semester_dates",
+      "patterns": [
+        "when do classes start",
+        "exam dates",
+        "academic calendar"
+      ],
+      "responses": [
+        "The academic calendar is determined by the University of Delhi. Semesters typically start in July/August (Odd) and January (Even). Check the DU website for the official calendar."
+      ]
+    },
+    {
+      "tag": "dept_biomedical",
+      "patterns": [
+        "biomedical science department",
+        "about bms course",
+        "biomedical faculty",
+        "bms labs"
+      ],
+      "responses": [
+        "The Department of Biomedical Science at ANDC is one of the flagship departments, offering B.Sc. (Hons) Biomedical Science. It has state-of-the-art labs and focuses on immunology, genetics, and biotechnology."
+      ]
+    },
+    {
+      "tag": "dept_cs",
+      "patterns": [
+        "computer science department",
+        "cs department faculty",
+        "about bsc computer science",
+        "cs labs"
+      ],
+      "responses": [
+        "The Computer Science Department offers B.Sc. (Hons) Computer Science and B.Sc. Physical Science (CS). It manages the Web Centre and has multiple high-performance computer labs."
+      ]
+    },
+    {
+      "tag": "dept_electronics",
+      "patterns": [
+        "electronics department",
+        "about bsc electronics",
+        "electronics faculty",
+        "robotics projects"
+      ],
+      "responses": [
+        "The Department of Electronics offers B.Sc. (Hons) Electronics. It is heavily involved in IEDC projects, robotics, and embedded systems research."
+      ]
+    },
+    {
+      "tag": "dept_chemistry",
+      "patterns": [
+        "chemistry department",
+        "about chemistry hons",
+        "chemistry labs",
+        "chemistry faculty"
+      ],
+      "responses": [
+        "The Chemistry Department offers B.Sc. (Hons) Chemistry and M.Sc. Chemistry. It is equipped with advanced instrumentation labs including spectrophotometers."
+      ]
+    },
+    {
+      "tag": "dept_physics",
+      "patterns": [
+        "physics department",
+        "about physics hons",
+        "physics labs",
+        "physics faculty"
+      ],
+      "responses": [
+        "The Physics Department offers B.Sc. (Hons) Physics. It emphasizes theoretical and experimental physics, with labs for optics, electronics, and thermal physics."
+      ]
+    },
+    {
+      "tag": "dept_zoology",
+      "patterns": [
+        "zoology department",
+        "about zoology hons",
+        "museum zoology",
+        "zoology faculty"
+      ],
+      "responses": [
+        "The Zoology Department offers B.Sc. (Hons) Zoology. It maintains a well-stocked museum and focuses on entomology, ecology, and cell biology."
+      ]
+    },
+    {
+      "tag": "dept_botany",
+      "patterns": [
+        "botany department",
+        "about botany hons",
+        "plant tissue culture lab",
+        "botany faculty"
+      ],
+      "responses": [
+        "The Botany Department offers B.Sc. (Hons) Botany. It features a unique herbal garden and a plant tissue culture laboratory."
+      ]
+    },
+    {
+      "tag": "dept_commerce",
+      "patterns": [
+        "commerce department",
+        "commerce faculty",
+        "bcom hons teachers"
+      ],
+      "responses": [
+        "The Commerce Department runs the B.Com (Hons) program. It organizes seminars on finance, marketing, and taxation regularly."
+      ]
+    },
+    {
+      "tag": "dept_mathematics",
+      "patterns": [
+        "maths department",
+        "mathematics faculty",
+        "maths hons details"
+      ],
+      "responses": [
+        "The Mathematics Department offers B.Sc. (Hons) Mathematics and M.Sc. Mathematics, focusing on algebra, analysis, and computer-oriented numerical methods."
+      ]
+    },
+    {
+      "tag": "society_dhwani",
+      "patterns": [
+        "dhwani society",
+        "theatre society",
+        "drama club",
+        "nukkad natak"
+      ],
+      "responses": [
+        "'Dhwani' is the theatre society of ANDC. It performs street plays (Nukkad Natak) and stage plays, winning accolades across DU."
+      ]
+    },
+    {
+      "tag": "society_sashakt",
+      "patterns": [
+        "sashakt society",
+        "women development cell",
+        "gender sensitization"
+      ],
+      "responses": [
+        "'Sashakt' is the society for women's empowerment. It organizes workshops, self-defense training, and talks on gender issues."
+      ]
+    },
+    {
+      "tag": "society_tark",
+      "patterns": [
+        "tark society",
+        "debating society",
+        "debate club"
+      ],
+      "responses": [
+        "'Tark' is the debating society of ANDC. It organizes annual debate competitions and model united nations (MUN) sessions."
+      ]
+    },
+    {
+      "tag": "society_picto",
+      "patterns": [
+        "picto society",
+        "photography club",
+        "camera club"
+      ],
+      "responses": [
+        "'Picto' is the photography society of ANDC, encouraging students to capture life on campus and organizing photo walks."
+      ]
+    },
+    {
+      "tag": "society_eco_club",
+      "patterns": [
+        "eco club",
+        "paritantra",
+        "environment society",
+        "green campus initiatives"
+      ],
+      "responses": [
+        "'Paritantra' is the Eco Club of ANDC. It manages the paper recycling unit and organizes tree plantation drives."
+      ]
+    },
+    {
+      "tag": "butterfly_conservatory",
+      "patterns": [
+        "butterfly park",
+        "butterfly conservatory",
+        "campus garden unique"
+      ],
+      "responses": [
+        "ANDC is famous for its 'Butterfly Conservatory', a dedicated open area on campus designed to attract and conserve various species of butterflies."
+      ]
+    },
+    {
+      "tag": "research_elite",
+      "patterns": [
+        "elite project",
+        "elite scholarship",
+        "summer research projects"
+      ],
+      "responses": [
+        "ELITE (Education in a Lively Innovative Training Environment) is ANDC's unique summer fellowship program where students undertake research projects with a stipend."
+      ]
+    },
+    {
+      "tag": "iedc",
+      "patterns": [
+        "iedc",
+        "entrepreneurship cell",
+        "startups",
+        "innovation center"
+      ],
+      "responses": [
+        "The Innovation and Entrepreneurship Development Centre (IEDC), funded by DST, promotes startup culture and funds student-led innovative projects."
+      ]
+    },
+    {
+      "tag": "ignou_center",
+      "patterns": [
+        "ignou study center",
+        "distance learning",
+        "ignou classes"
+      ],
+      "responses": [
+        "ANDC functions as a study center for IGNOU (Indira Gandhi National Open University), offering counseling for various courses on weekends."
+      ]
+    },
+    {
+      "tag": "ncweb_center",
+      "patterns": [
+        "ncweb center",
+        "non collegiate",
+        "weekend classes for girls"
+      ],
+      "responses": [
+        "ANDC is a teaching center for the Non-Collegiate Women's Education Board (NCWEB), conducting classes for BA and BCom on Sundays/breaks."
+      ]
+    },
+    {
+      "tag": "admin_accounts",
+      "patterns": [
+        "accounts section",
+        "fee payment issue",
+        "scholarship disbursement"
+      ],
+      "responses": [
+        "The Accounts Section deals with fee payments, refunds, and scholarship disbursements. It is located in the Administration Block."
+      ]
+    },
+    {
+      "tag": "admin_principal_office",
+      "patterns": [
+        "principal office",
+        "meet the principal",
+        "pa to principal"
+      ],
+      "responses": [
+        "The Principal's Office handles high-level administrative matters. Appointments to meet the Principal can be sought through the PA."
+      ]
+    },
+    {
+      "tag": "library_timings",
+      "patterns": [
+        "library opening hours",
+        "when does library close",
+        "is library open on saturday"
+      ],
+      "responses": [
+        "The library is generally open from 9:00 AM to 5:30 PM on weekdays. Timings may vary during exam periods."
+      ]
+    },
+    {
+      "tag": "library_card",
+      "patterns": [
+        "how to get library card",
+        "issue books",
+        "book bank"
+      ],
+      "responses": [
+        "Your College ID card works as your Library Card. You can use it to issue text books and access the reference section."
+      ]
+    },
+    {
+      "tag": "sports_cricket",
+      "patterns": [
+        "cricket team",
+        "cricket trials",
+        "cricket ground"
+      ],
+      "responses": [
+        "ANDC has a dedicated cricket ground and a competitive cricket team that participates in inter-college DU tournaments."
+      ]
+    },
+    {
+      "tag": "sports_football",
+      "patterns": [
+        "football team",
+        "football trials",
+        "soccer"
+      ],
+      "responses": [
+        "The college has a football team and practices are held at the sports ground. Trials are usually held at the start of the academic session."
+      ]
+    },
+    {
+      "tag": "canteen_menu",
+      "patterns": [
+        "what is in the canteen menu",
+        "food prices",
+        "best food in canteen"
+      ],
+      "responses": [
+        "The canteen serves affordable meals like Thali, Rajma Chawal, Dosas, Samosas, and beverages. The 'Honey Chilli Potato' is a student favorite."
+      ]
+    },
+    {
+      "tag": "exam_admit_card",
+      "patterns": [
+        "download admit card",
+        "where to get admit card",
+        "exam roll number"
+      ],
+      "responses": [
+        "Admit cards can be downloaded from the DU Samarth Portal before the examinations begin."
+      ]
+    },
+    {
+      "tag": "exam_results",
+      "patterns": [
+        "check results",
+        "mark sheet",
+        "result declaration"
+      ],
+      "responses": [
+        "Semester results are declared on the official University of Delhi website (exam.du.ac.in) and can also be viewed via the college portal."
+      ]
+    },
+    {
+      "tag": "revaluation",
+      "patterns": [
+        "revaluation of marks",
+        "rechecking",
+        "exam copy check"
+      ],
+      "responses": [
+        "Students can apply for revaluation or rechecking of answer scripts through the DU examination branch within the stipulated time after result declaration."
+      ]
+    },
+    {
+      "tag": "migration_certificate",
+      "patterns": [
+        "how to get migration certificate",
+        "leaving college",
+        "transfer certificate"
+      ],
+      "responses": [
+        "Migration certificates are issued by the Administration Office upon submission of a 'No Dues' clearance form from the library and labs."
+      ]
+    },
+    {
+      "tag": "parking",
+      "patterns": [
+        "is there parking",
+        "student parking",
+        "bike parking"
+      ],
+      "responses": [
+        "Limited parking space is available for students' two-wheelers. Cars are generally not allowed inside the student parking area."
+      ]
+    },
+    {
+      "tag": "seminar_hall",
+      "patterns": [
+        "seminar room",
+        "conference room",
+        "av room"
+      ],
+      "responses": [
+        "The college has a fully air-conditioned seminar hall equipped with projectors and sound systems for guest lectures and society events."
+      ]
+    },
+    {
+      "tag": "web_center",
+      "patterns": [
+        "web center",
+        "internet room",
+        "browsing center"
+      ],
+      "responses": [
+        "The Web Center provides internet access to students for project work and research. It is equipped with multiple desktop stations."
+      ]
+    },
+    {
+      "tag": "freshers_party",
+      "patterns": [
+        "freshers party",
+        "welcome party",
+        "event for new students"
+      ],
+      "responses": [
+        "Departmental and college-level Freshers' parties are usually organized in August/September to welcome new students."
+      ]
+    },
+    {
+      "tag": "farewell_party",
+      "patterns": [
+        "farewell party",
+        "seniors goodbye",
+        "last year party"
+      ],
+      "responses": [
+        "Farewell parties for final-year students are organized by juniors in April, before the study break begins."
+      ]
+    },
+    {
+      "tag": "alumni_association",
+      "patterns": [
+        "join alumni association",
+        "andc alumni",
+        "old students group"
+      ],
+      "responses": [
+        "Graduating students can register for the ANDC Alumni Association to stay connected and attend the annual Alumni Meet."
+      ]
+    },
+    {
+      "tag": "add_on_courses",
+      "patterns": [
+        "add on courses",
+        "short term courses",
+        "skill courses"
+      ],
+      "responses": [
+        "ANDC frequently runs short-term add-on courses in areas like Python, ML, IoT, and Personality Development. Keep an eye on the notice board."
+      ]
+    },
+    {
+      "tag": "grievance_redressal",
+      "patterns": [
+        "complaint box",
+        "grievance committee",
+        "student problems"
+      ],
+      "responses": [
+        "A Grievance Redressal Committee exists to address student complaints regarding academics or infrastructure. You can submit a written complaint to the admin."
+      ]
+    },
+    {
+      "tag": "rti",
+      "patterns": [
+        "rti officer",
+        "right to information",
+        "public information officer"
+      ],
+      "responses": [
+        "The college has a designated Public Information Officer (PIO) for RTI matters. Details are available on the college website under the 'RTI' section."
+      ]
+    },
+    {
+      "tag": "internal_assessment",
+      "patterns": [
+        "internal assessment marks",
+        "ia marks",
+        "assignment marks"
+      ],
+      "responses": [
+        "Internal Assessment (25% of total) includes marks for attendance, class tests, and assignments. These are uploaded on the college ERP."
+      ]
+    },
+    {
+      "tag": "medical_leave",
+      "patterns": [
+        "medical leave",
+        "sick leave",
+        "attendance waiver"
+      ],
+      "responses": [
+        "Medical certificates must be submitted to the college office immediately upon rejoining college to claim attendance benefits."
+      ]
+    },
+    {
+      "tag": "college_magazine",
+      "patterns": [
+        "college magazine",
+        "student publication",
+        "insight"
+      ],
+      "responses": [
+        "The annual college magazine 'Insight' features articles, poems, and artwork by students and faculty."
+      ]
+    },
+    {
+      "tag": "nsso",
+      "patterns": [
+        "nsso",
+        "national service scheme officer",
+        "nss program officer"
+      ],
+      "responses": [
+        "The NSS unit is led by a Programme Officer who coordinates all social service activities. Recruitment usually happens in August."
+      ]
+    },
+    {
+      "tag": "nearest_market",
+      "patterns": [
+        "market near college",
+        "food joints nearby",
+        "kalkaji market"
+      ],
+      "responses": [
+        "The Kalkaji Main Market and Govindpuri Market are walking distance from the college, offering food, stationery, and other essentials."
+      ]
+    },
+    {
+      "tag": "photocopy_charges",
+      "patterns": [
+        "xerox price",
+        "printout cost",
+        "photocopy rate"
+      ],
+      "responses": [
+        "The on-campus photocopy shop offers subsidized rates for students, typically cheaper than outside markets."
+      ]
+    }
+  ]
+}
